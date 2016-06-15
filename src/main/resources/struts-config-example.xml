@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE struts-config PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+        "http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+
+    <form-beans></form-beans>
+
+    <action-mappings></action-mappings>
+
+    <plug-in className="com.github.uliss3s.strutsannotationplugin.Plugin">
+        <set-property property="actionsPackageLocation" value="my.app.web.actions"/>
+        <set-property property="formsPackageLocation" value="my.app.domain"/>
+    </plug-in>
+
+</struts-config>
