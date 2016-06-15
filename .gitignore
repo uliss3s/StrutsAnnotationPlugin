@@ -45,7 +45,11 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 ### Maven template
-target/
+target/classes
+target/generated-sources
+target/maven-archiver
+target/maven-status
+target/surefire
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -61,7 +65,6 @@ buildNumber.properties
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.ear
 
