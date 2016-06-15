@@ -45,11 +45,11 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 ### Maven template
-target/classes
-target/generated-sources
-target/maven-archiver
-target/maven-status
-target/surefire
+/target/classes/
+/target/generated-sources/
+/target/maven-archiver/
+/target/maven-status/
+/target/surefire/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -70,4 +70,3 @@ buildNumber.properties
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-
