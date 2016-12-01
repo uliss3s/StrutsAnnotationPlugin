@@ -1,3 +1,8 @@
+/**
+ * This Struts 1.3.X Plugin Class implements annotation support for mapping actions and POJO's as a DynaActionForm
+ * It depends on Spring "org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider" class
+ */
+
 package com.github.uliss3s.strutsannotationplugin;
 
 import com.github.uliss3s.strutsannotationplugin.annotations.Action;
@@ -116,17 +121,15 @@ public class Plugin implements PlugIn {
 		return actionsPackageLocation;
 	}
 
-	public Plugin setActionsPackageLocation(String actionsPackageLocation) {
+	public void setActionsPackageLocation(String actionsPackageLocation) {
 		this.actionsPackageLocation = actionsPackageLocation;
-		return this;
 	}
 
 	public String getFormsPackageLocation() {
 		return formsPackageLocation;
 	}
 
-	public Plugin setFormsPackageLocation(String formsPackageLocation) {
+	public void setFormsPackageLocation(String formsPackageLocation) {
 		this.formsPackageLocation = formsPackageLocation;
-		return this;
 	}
 }
